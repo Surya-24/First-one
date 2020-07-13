@@ -1,0 +1,238 @@
+body{
+	color: white;
+	background-color: maroon;
+	font-family: 'Oxygen', sans-serif;	
+}
+#header-nav{
+	background-color: yellow;
+	color: black;
+	border-radius: 0;
+	border: 0;
+	padding: 0;
+}
+#logo_img{
+	background: url("https://i.pinimg.com/236x/31/44/0d/31440d1c7eae15bfcc118f1cb543df9c--hotel-logos-hotel-logo-design.jpg") no-repeat;
+	width: 236px;
+	height: 196px;
+	margin: 10px 15px 10px 0px;
+	float: left;
+}
+#h{
+	font-family: 'lora' , serif;
+	color: green;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height: .75;
+	text-shadow: 1px 1px 1px gray;
+}
+#nav-list{
+	color: black;
+	margin: 1px solid black;
+	margin-top: 10px;
+	text-align: center;
+}
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 50px
+}
+#nav-list a:hover{
+	background: white;
+}
+#phone{
+	margin-top: 5px;
+}
+#phone a{
+	text-align: right;
+	padding-bottom: 0px;
+}
+#phone div{
+	color: green;text-align: right;
+	padding-right: 15px
+}
+#navbar-header button.navbar-toggle, .navbar-header .iconbar{
+	border: 1px solid maroon;
+}
+#menu-tile, #Specials-tile, #map-tile{
+	width: 100%;
+	height: 250px;
+	margin-bottom: 15px;
+	position: relative;
+	overflow: hidden;
+	border: 2px solid black;
+}
+#menu-tile:hover, #Specials-tile:hover, #map-tile:hover {
+	 box-shadow: 0 1px 5px 1px white;
+	}
+
+#menu-tile{
+	background: url(https://image.freepik.com/free-vector/modern-christmas-menu-restaurant-template_1361-1944.jpg);
+	background-position: center;
+}
+#Specials-tile{
+	background: url(https://images.cdn3.stockunlimited.net/preview1300/special-menu-text_1527709.jpg);
+	background-position: center;
+}
+
+#menu-tile span, #Specials-tile span, #map-tile span{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 100%;
+	background-color: brown;
+	opacity: .8;
+	color: white;
+}
+
+@media(min-width: 1200px){
+.jumbotron{
+	background: url(https://i.pinimg.com/originals/22/6a/1a/226a1a244f35058b37e9873187fe45e7.jpg) no-repeat;
+
+	height: 675px;
+	box-shadow: 0 0 50px maroon;
+	border: 2px solid black;
+}}
+@media(min-width: 992px) and (max-width:1199px){
+	.jumbotron{
+	background: url(https://i.pinimg.com/originals/22/6a/1a/226a1a244f35058b37e9873187fe45e7.jpg) no-repeat;
+
+	height: 558px;
+	box-shadow: 0 0 50px black;
+	border: 2px solid black;
+}
+}
+@media(min-width: 768px) and (max-width:991px){
+	.jumbotron{
+	background: url(https://i.pinimg.com/originals/22/6a/1a/226a1a244f35058b37e9873187fe45e7.jpg) no-repeat;
+
+	height: 432px;
+	box-shadow: 0 0 50px black;
+	border: 2px solid black;
+}
+}
+@media(max-width: 768px){
+	.jumbotron{
+	background: url(https://i.pinimg.com/originals/22/6a/1a/226a1a244f35058b37e9873187fe45e7.jpg) no-repeat;
+	height: 300px;
+	box-shadow: 0 0 50px black;
+	border: 2px solid black;
+}
+	.panel-footer{
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	hr{
+	background-color: white;
+	width: 50%;
+}
+.menu-item-photo{
+	margin-right: auto;
+}
+}
+/* Footer */
+.panel-footer{
+	background-color: black;
+	color: white;
+	margin-top: 30px;
+	padding-top: 30px;
+	padding-bottom: 35px;
+	border-top: 0; 
+}
+.panel-footer div.row{
+	margin-bottom: 35px;
+}
+#hours > span , #address > span{
+	font-size: 1.5em;
+}
+#address p{
+	color: green;
+	font-style: italic;
+	font-size: .8em;
+	line-height: 1.8
+}
+#testimonials{
+	font-style: italic;
+}
+#testimonials p:nth-child(1){
+	margin-top: 25px;
+}
+/* Menu Categories */
+.category-tile{
+	position: relative;
+	border: 2px solid black;
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto 15px;
+}
+.category-tile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align:center;
+	opacity: .8;
+	background-color: black;
+	color: white;
+	font-size: 1.2em;
+	text-transform: uppercase;
+}
+.category-tile:hover{
+	box-shadow: 0 1px 5px 1px gray;
+}
+#menu-categories-title + div{
+	margin-bottom: 50px;
+}
+/* Styling single Category */
+.menu-item-title{
+	margin-bottom: 10px;
+}
+.menu-item-title hr{
+	width: 80%;
+}
+.menu-item-title .menu-item-price{
+	font-size: 1.6em;
+	text-align: right;
+	margin-top: -15px;
+	margin-right: -15px; 
+}
+.menu-item-title .menu-item-price span{
+	font-size: .6em;
+}
+.menu-item-photo{
+	position: relative;
+	overflow: hidden;
+	border: 1px solid black;
+	padding: 0;
+	margin-right: -15px;
+	margin-left: auto;
+	max-width: 250px;
+}
+.menu-item-photo div{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-color: green;
+	width: 80px;
+	text-align: center;
+	opacity: .8;
+}
+.menu-item-description{
+	padding-right: 30px;
+}
+h3.menu-item-title{
+	margin: 0 0 10px;
+}
+.menu-item-details{
+	font-size: .9em;
+	font-style: italic;
+}
